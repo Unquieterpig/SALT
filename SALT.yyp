@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,12 +35,15 @@
   },
   "name":"SALT",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_Hand","path":"objects/obj_Hand/obj_Hand.yy",},},
+    {"id":{"name":"rm_beach","path":"rooms/rm_beach/rm_beach.yy",},},
+    {"id":{"name":"scr_Hand","path":"scripts/scr_Hand/scr_Hand.yy",},},
+    {"id":{"name":"sprHand","path":"sprites/sprHand/sprHand.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_beach","path":"rooms/rm_beach/rm_beach.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
