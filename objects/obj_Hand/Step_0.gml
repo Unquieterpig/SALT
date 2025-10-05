@@ -1,13 +1,18 @@
-x = mouse_x;
-if collected_sand == false {
-	if mouse_y > 300 { y = mouse_y } 
+// --- GENERAL BEHAVIOR ---
 
-	if mouse_check_button(mb_left){
-		sprite_index = spr_hand_grasp
-	}
-	else{
-		sprite_index = spr_hand_open
-	}
+// Make the object's horizontal position always follow the mouse.
+x = mouse_x;
+
+// --- STATE 1: NOT HOLDING SAND ---
+
+// This block runs if the 'collected_sand' flag is false.
+if collected_sand == false {
+	
+	// Clamp y position Nate-e-poo
+	y = max(300, mouse_y);
+
+	// Use fancy ternary operator Nate-e-poo
+	sprite_index = mouse_check_button(mb_left) ? spr_hand_grasp : spr_hand_open;
 	
 	if mouse_check_button_released(mb_left){
 		collected_sand = true
