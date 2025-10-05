@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hand_open",
-    "path":"sprites/spr_hand_open/spr_hand_open.yy",
+    "name":"spr_hand_finished",
+    "path":"sprites/spr_hand_finished/spr_hand_finished.yy",
   },
   "spriteMaskId":null,
   "visible":true,
