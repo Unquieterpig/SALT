@@ -20,9 +20,7 @@ else{
 	
 	var mx = device_mouse_x(0);
 	var dx = mx - prev_mx;
-
 	var dir = (abs(dx) >= min_delta) ? sign(dx) : 0;
-
 
 	if (dir != 0 && dir != prev_dir) {
 	    shake_cnt++;
@@ -32,11 +30,11 @@ else{
 
 	if (shake_timer > 0) {
 	    shake_timer--;
-	} else {
+	}
+	else {
 	    shake_cnt = 0;
 	    prev_dir = 0;
 	}
-
 
 	if (shake_cnt >= threshold) {
 	    show_debug_message("SHAKE!");
