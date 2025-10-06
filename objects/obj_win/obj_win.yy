@@ -1,14 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tide",
+  "%Name":"obj_win",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tide",
+  "name":"obj_win",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tide",
-    "path":"sprites/spr_tide/spr_tide.yy",
+    "name":"spr_gameover",
+    "path":"sprites/spr_gameover/spr_gameover.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_tide",
-    "path":"sprites/spr_tide/spr_tide.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

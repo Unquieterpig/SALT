@@ -32,44 +32,25 @@ switch(state){
 		}
 		
 		if (mouse_check_button_pressed(mb_left)){
-			with instance_place(x, y, obj_tape){
-				switch tape {
-					case 1:
-						if !audio_is_playing(snd_tape1)
-						audio_play_sound(snd_tape1, 1, false, 0.2)
-						break;
-					case 2:
-						if !audio_is_playing(snd_tape2)
-						audio_play_sound(snd_tape2, 1, false, 0.2)
-						break;
-					case 3:
-						if !audio_is_playing(snd_tape3)
-						audio_play_sound(snd_tape3, 1, false, 0.2)
-						break;
-					case 4:
-						if !audio_is_playing(snd_tape4)
-						audio_play_sound(snd_tape4, 1, false, 0.2)
-						break;
-					case 5:
-						if !audio_is_playing(snd_tape5)
-						audio_play_sound(snd_tape5, 1, false, 0.2)
-						break;
-				}
-			}
 			dig_x1 = x
 			dig_y1 = y
 			audio_play_sound(snd_sand_pickup, 0, false)
 		}
 		
 		// Tell beach object to add circles
-		if (mouse_check_button(mb_left)){
-			if instance_position(mouse_x, mouse_y, obj_fent_needle){
-				mouse_clear(mb_left)
-				hp--;
-			}
+		if (mouse_check_button(mb_left)) && !instance_position(x,y,obj_tide){
+			
 			obj_beach_dugup.circle_add(x,y, 48);
 			dig_x2 = x
 			dig_y2 = y
+			
+			// does player hit fent needle?
+			if instance_position(mouse_x, mouse_y, obj_fent_needle){
+				mouse_clear(mb_left)
+				hp--;
+				sand_stage = 0
+			}
+
 		}
 		
 		
@@ -158,20 +139,22 @@ switch(state){
 			prev_dir = 0;
 			shake_timer = 0;
 			audio_play_sound(snd_sand_shake, 0, false)
-            if (random(1.0) < sparkle_chance) {
-				feedback_text = "You found a Nathinum Particle!";
-				feedback_timer = feedback_duration;
-                state = HAND_STATE.TRANSPORTING;
+			if sand_stage == 6{
+	            if (random(1.0) < sparkle_chance) {
+					feedback_text = "You found a Nathinum Particle!";
+					feedback_timer = feedback_duration;
+	                state = HAND_STATE.TRANSPORTING;
 				
-				sparkle_chance = sparkle_chance_base;
-            } else {
-				feedback_text = "Nothing this time...";
-				feedback_timer = feedback_duration;
-                state = HAND_STATE.COLLECTING;
+					sparkle_chance = sparkle_chance_base;
+	            } else {
+					feedback_text = "Nothing this time...";
+					feedback_timer = feedback_duration;
+	                state = HAND_STATE.COLLECTING;
 				
-				sparkle_chance += sparkle_chance_increment;
-				sparkle_chance = min(1.0, sparkle_chance);
-            }
+					sparkle_chance += sparkle_chance_increment;
+					sparkle_chance = min(1.0, sparkle_chance);
+	            }
+			}
         }
 
         break;

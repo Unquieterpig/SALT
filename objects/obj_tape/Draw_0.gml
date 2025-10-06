@@ -1,1 +1,1 @@
-draw_sprite_ext(spr_tape, 0, x, y, xscale, yscale, 0, c_white, 1.0);
+draw_sprite_ext(spr_tape, tape, x, y, xscale, yscale, 0, c_white, 1.0);

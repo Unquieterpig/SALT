@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tape",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_salt",
+  "eventList":[],
   "managed":true,
-  "name":"obj_tape",
+  "name":"obj_salt",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tape",
-    "path":"sprites/spr_tape/spr_tape.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
