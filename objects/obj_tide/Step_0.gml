@@ -7,7 +7,7 @@ if (time mod 360) < 0.25 && alarm[0] == -1
 
 if floor(time mod 360) == 180
 {
-	instance_create_layer(x,y,"Instances_3",obj_wet_sand)
+	instance_create_layer(x,y,"Instances_5",obj_wet_sand)
 }
 
 if time > 360 { time = 0}

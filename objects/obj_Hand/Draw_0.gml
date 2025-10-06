@@ -25,7 +25,7 @@ switch (state) {
     case HAND_STATE.HOLDING:
 	case HAND_STATE.SHAKING:
         // Draw the palm sprite when holding sand.
-        draw_sprite(spr_hand_palm, 0, x, 400);
+		draw_sprite_ext(spr_hand_palm_finished, sand_stage, x, y, hand_xscale, hand_yscale, 0, c_white, 1.0);
         break;
 		
 	case HAND_STATE.TRANSPORTING:

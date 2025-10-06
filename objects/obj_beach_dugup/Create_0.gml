@@ -1,4 +1,5 @@
-surf = -1;
+surf = -1;                 // you can keep this if you prefer; not used below
+cover_surf = -1;
 
 circles = ds_list_create();
 
