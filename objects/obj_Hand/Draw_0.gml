@@ -30,7 +30,8 @@ switch (state) {
 		
 	case HAND_STATE.TRANSPORTING:
 		// Draw hand and sparkle on top
-		draw_sprite(spr_hand_palm, 0, x, y);
+		draw_sprite_ext(spr_hand_palm_finished, 9, x, y, hand_xscale, hand_yscale, 0, c_white, 1.0);
+		// draw_sprite(spr_hand_palm_finished, 9, x, y);
 		draw_sprite(spr_sparkle, -1, x, y);
 		break;
 }

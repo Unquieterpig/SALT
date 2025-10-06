@@ -158,20 +158,20 @@ switch(state){
 			prev_dir = 0;
 			shake_timer = 0;
 			audio_play_sound(snd_sand_shake, 0, false)
-            //if (random(1.0) < sparkle_chance) {
-			//	feedback_text = "You found a Nathinum Particle!";
-			//	feedback_timer = feedback_duration;
-            //    state = HAND_STATE.TRANSPORTING;
+            if (random(1.0) < sparkle_chance) {
+				feedback_text = "You found a Nathinum Particle!";
+				feedback_timer = feedback_duration;
+                state = HAND_STATE.TRANSPORTING;
 				
-			//	sparkle_chance = sparkle_chance_base;
-            //} else {
-			//	feedback_text = "Nothing this time...";
-			//	feedback_timer = feedback_duration;
-            //    state = HAND_STATE.COLLECTING;
+				sparkle_chance = sparkle_chance_base;
+            } else {
+				feedback_text = "Nothing this time...";
+				feedback_timer = feedback_duration;
+                state = HAND_STATE.COLLECTING;
 				
-			//	sparkle_chance += sparkle_chance_increment;
-			//	sparkle_chance = min(1.0, sparkle_chance);
-            //}
+				sparkle_chance += sparkle_chance_increment;
+				sparkle_chance = min(1.0, sparkle_chance);
+            }
         }
 
         break;
