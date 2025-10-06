@@ -8,3 +8,14 @@ shake_timer = 0;                // A timer to reset the shake count if the user 
 min_delta   = 6;                // Minimum pixels the mouse must move to register movement
 threshold   = 4;                // How many direction changes are needed to trigger a "SHAKE!"
 timeout_max = room_speed / 4;   // How many frames the user has to continue a shake
+
+hand_xscale = 268 / sprite_get_width(spr_hand_finished);
+hand_yscale = 650 / sprite_get_height(spr_hand_finished);
+
+// Define possible states
+enum HAND_STATE {
+    COLLECTING,
+    HOLDING
+}
+
+state = HAND_STATE.COLLECTING;  // Set the starting state
