@@ -85,8 +85,7 @@ switch(state){
 
         // --- Check for Success ---
         if (shake_cnt >= shake_threshold) {
-            // if (random(1.0) < sparkle_chance) {
-			if (true) {
+            if (random(1.0) < sparkle_chance) {
 				feedback_text = "You found a Nathinum Particle!";
 				feedback_timer = feedback_duration;
                 state = HAND_STATE.TRANSPORTING;

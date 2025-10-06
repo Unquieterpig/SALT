@@ -18,7 +18,7 @@ if (feedback_timer > 0) {
 switch (state) {
     case HAND_STATE.COLLECTING:
         // Draw the main hand sprite
-		var _sprite = mouse_check_button(mb_left) ? spr_hand_grasp : spr_hand_finished;
+		var _sprite = mouse_check_button(mb_left) ? spr_hand_grasp_finished : spr_hand_finished;
 		draw_sprite_ext(_sprite, 0, x, y, hand_xscale, hand_yscale, 0, c_white, 1.0);
 		break;
 
