@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_tape4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":53.142857,
+  "name":"snd_tape4",
+  "parent":{
+    "name":"tape recordings",
+    "path":"folders/Sounds/tape recordings.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_tape4.wav",
+  "type":0,
+  "volume":1.0,
+}

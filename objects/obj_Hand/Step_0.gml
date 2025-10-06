@@ -32,6 +32,30 @@ switch(state){
 		}
 		
 		if (mouse_check_button_pressed(mb_left)){
+			with instance_place(x, y, obj_tape){
+				switch tape {
+					case 1:
+						if !audio_is_playing(snd_tape1)
+						audio_play_sound(snd_tape1, 1, false, 0.2)
+						break;
+					case 2:
+						if !audio_is_playing(snd_tape2)
+						audio_play_sound(snd_tape2, 1, false, 0.2)
+						break;
+					case 3:
+						if !audio_is_playing(snd_tape3)
+						audio_play_sound(snd_tape3, 1, false, 0.2)
+						break;
+					case 4:
+						if !audio_is_playing(snd_tape4)
+						audio_play_sound(snd_tape4, 1, false, 0.2)
+						break;
+					case 5:
+						if !audio_is_playing(snd_tape5)
+						audio_play_sound(snd_tape5, 1, false, 0.2)
+						break;
+				}
+			}
 			dig_x1 = x
 			dig_y1 = y
 			audio_play_sound(snd_sand_pickup, 0, false)

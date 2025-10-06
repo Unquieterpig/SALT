@@ -18,6 +18,14 @@ if place_meeting(x,y-64,obj_fent_needle){
 	
 }
 
+if place_meeting(x,y,obj_tape){
+	randomize()
+	obj_tape.x = irandom_range(64, 1302)
+	obj_tape.y = irandom_range(270, 718)
+	
+}
+
+
 if time > 360 { time = 0}
 
 y = y + dsin(time)*tide_size

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tide",
-    "path":"sprites/spr_tide/spr_tide.yy",
+    "name":"spr_tide_3",
+    "path":"sprites/spr_tide_3/spr_tide_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

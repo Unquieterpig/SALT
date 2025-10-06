@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_beach",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_beach/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -14,6 +14,7 @@
     {"name":"inst_2D183D9","path":"rooms/rm_beach/rm_beach.yy",},
     {"name":"inst_F50F49","path":"rooms/rm_beach/rm_beach.yy",},
     {"name":"inst_726A1BDA","path":"rooms/rm_beach/rm_beach.yy",},
+    {"name":"inst_27FAD29D","path":"rooms/rm_beach/rm_beach.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,6 +38,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2D183D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D183D9","objectId":{"name":"obj_beach_sandwet","path":"objects/obj_beach_sandwet/obj_beach_sandwet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_786B9567","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_786B9567","objectId":{"name":"obj_fent_needle","path":"objects/obj_fent_needle/obj_fent_needle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_726A1BDA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_726A1BDA","objectId":{"name":"obj_fent_needle","path":"objects/obj_fent_needle/obj_fent_needle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":480.0,},
+        {"$GMRInstance":"v2","%Name":"inst_27FAD29D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27FAD29D","objectId":{"name":"obj_tape","path":"objects/obj_tape/obj_tape.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":630.0,"y":265.0,},
       ],"layers":[],"name":"Instances_2","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_beach",
