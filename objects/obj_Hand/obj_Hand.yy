@@ -37,6 +37,9 @@
     "name":"spr_hand_finished",
     "path":"sprites/spr_hand_finished/spr_hand_finished.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_hand_palm",
+    "path":"sprites/spr_hand_palm/spr_hand_palm.yy",
+  },
   "visible":true,
 }
