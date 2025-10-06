@@ -43,6 +43,7 @@
     {"id":{"name":"obj_beach_sandwet","path":"objects/obj_beach_sandwet/obj_beach_sandwet.yy",},},
     {"id":{"name":"obj_bucket","path":"objects/obj_bucket/obj_bucket.yy",},},
     {"id":{"name":"obj_fent_needle","path":"objects/obj_fent_needle/obj_fent_needle.yy",},},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
     {"id":{"name":"obj_tide","path":"objects/obj_tide/obj_tide.yy",},},
     {"id":{"name":"obj_wet_sand","path":"objects/obj_wet_sand/obj_wet_sand.yy",},},

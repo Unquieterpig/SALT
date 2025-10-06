@@ -8,7 +8,7 @@ if hp <= 0{
 
 
 x = mouse_x;
-y = max(380, mouse_y);
+y = max(270, mouse_y);
 
 if (feedback_timer > 0) {
 	feedback_timer -= delta_time;
