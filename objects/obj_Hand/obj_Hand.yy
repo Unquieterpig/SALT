@@ -1,11 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Hand",
+  "%Name":"obj_hand",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Hand",
+  "name":"obj_hand",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprHand",
-    "path":"sprites/sprHand/sprHand.yy",
+    "name":"spr_hand_finished",
+    "path":"sprites/spr_hand_finished/spr_hand_finished.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_hand_palm",
+    "path":"sprites/spr_hand_palm/spr_hand_palm.yy",
+  },
   "visible":true,
 }

@@ -1,0 +1,1 @@
+audio_play_sound(snd_beach_ambience, 0, true)
