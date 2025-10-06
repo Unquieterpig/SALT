@@ -54,6 +54,7 @@
     {"id":{"name":"spr_hand_open","path":"sprites/spr_hand_open/spr_hand_open.yy",},},
     {"id":{"name":"spr_hand_palm","path":"sprites/spr_hand_palm/spr_hand_palm.yy",},},
     {"id":{"name":"spr_sand_pile","path":"sprites/spr_sand_pile/spr_sand_pile.yy",},},
+    {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},},
     {"id":{"name":"spr_tide_2","path":"sprites/spr_tide_2/spr_tide_2.yy",},},
     {"id":{"name":"spr_tide","path":"sprites/spr_tide/spr_tide.yy",},},
   ],

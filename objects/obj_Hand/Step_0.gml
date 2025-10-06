@@ -40,7 +40,7 @@ switch(state){
 		}
 
 		if (shake_timer > 0) {
-			shake_timer--;
+			shake_timer -= delta_time;
 		}
 		else {
 			shake_cnt = 0;
@@ -55,6 +55,7 @@ switch(state){
 		}
 
 		prev_mx = mx;
+		
 	break;	
-		}
+	}
 }
