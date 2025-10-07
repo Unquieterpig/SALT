@@ -7,3 +7,4 @@ x = room_width/2;
 y = room_height + 150;
 
 audio_play_sound(snd_credits_song, 0, false);
+audio_stop_sound(snd_beach_ambience);
