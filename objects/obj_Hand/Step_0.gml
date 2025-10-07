@@ -47,6 +47,12 @@ switch(state){
 			
 			// does player hit fent needle?
 			if instance_position(mouse_x, mouse_y, obj_fent_needle){
+				dig_x1 = 0
+				dig_y1 = 0
+				dig_x2 = 0
+				dig_y2 = 0
+				feedback_text = "Ow! A fent needle stabbed me!";
+				feedback_timer = feedback_duration;
 				mouse_clear(mb_left)
 				hp--;
 				sand_stage = 0

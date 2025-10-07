@@ -72,6 +72,8 @@
     {"id":{"name":"snd_tape3","path":"sounds/snd_tape3/snd_tape3.yy",},},
     {"id":{"name":"snd_tape4","path":"sounds/snd_tape4/snd_tape4.yy",},},
     {"id":{"name":"snd_tape5","path":"sounds/snd_tape5/snd_tape5.yy",},},
+    {"id":{"name":"snd_tape6","path":"sounds/snd_tape6/snd_tape6.yy",},},
+    {"id":{"name":"snd_tape7","path":"sounds/snd_tape7/snd_tape7.yy",},},
     {"id":{"name":"spr_beach_wet","path":"sprites/spr_beach_wet/spr_beach_wet.yy",},},
     {"id":{"name":"spr_beach","path":"sprites/spr_beach/spr_beach.yy",},},
     {"id":{"name":"spr_bucket","path":"sprites/spr_bucket/spr_bucket.yy",},},
