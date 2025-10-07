@@ -51,6 +51,7 @@ switch(state){
 				dig_y1 = 0
 				dig_x2 = 0
 				dig_y2 = 0
+				audio_play_sound(snd_hurt,0,false)
 				feedback_text = "Ow! A fent needle stabbed me!";
 				feedback_timer = feedback_duration;
 				mouse_clear(mb_left)

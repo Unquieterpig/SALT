@@ -1,0 +1,1 @@
+audio_play_sound(snd_annoying_loop_song, 0, true, 0.2)

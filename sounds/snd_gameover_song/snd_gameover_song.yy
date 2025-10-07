@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_gameover_song",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":401.05505,
+  "name":"snd_gameover_song",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gameover_song.mp3",
+  "type":0,
+  "volume":1.0,
+}
