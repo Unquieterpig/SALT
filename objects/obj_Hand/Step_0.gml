@@ -1,11 +1,12 @@
 // --- GENERAL BEHAVIOR ---
 
 if hp <= 0{
-	room_goto(rm_gameover)
+	room_goto(rm_gameover);
 }
 
-// Make the object's horizontal position always follow the mouse.
-
+if goal_amount == 0 {
+	room_goto(rm_credits);
+}
 
 x = mouse_x;
 y = max(270, mouse_y);
@@ -138,9 +139,10 @@ switch(state){
 			shake_cnt = 0;
 			prev_dir = 0;
 			shake_timer = 0;
-			audio_play_sound(snd_sand_shake, 0, false)
+			audio_play_sound(snd_sand_shake, 0, false);
 			if sand_stage == 6{
 	            if (random(1.0) < sparkle_chance) {
+					audio_play_sound(snd_nathinum_ting, 0, false);
 					feedback_text = "You found a Nathinum Particle!";
 					feedback_timer = feedback_duration;
 	                state = HAND_STATE.TRANSPORTING;
@@ -152,7 +154,7 @@ switch(state){
 	                state = HAND_STATE.COLLECTING;
 				
 					sparkle_chance += sparkle_chance_increment;
-					sparkle_chance = min(1.0, sparkle_chance);
+					sparkle_chance = min(1.0, sparkle_chance); // clamp to 100%
 	            }
 			}
         }

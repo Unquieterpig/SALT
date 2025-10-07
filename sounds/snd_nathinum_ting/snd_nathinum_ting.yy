@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_nathinum_ting",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.9920181,
+  "name":"snd_nathinum_ting",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_nathinum_ting.mp3",
+  "type":1,
+  "volume":1.0,
+}

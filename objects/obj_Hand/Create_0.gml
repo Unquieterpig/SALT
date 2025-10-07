@@ -19,7 +19,7 @@ sparkle_chance_base = 0.10; // Base chance of finding nathinum
 sparkle_chance_increment = 0.01; // Increase amount
 sparkle_chance = sparkle_chance_base; // Current chance
 
-goal_amount = 100; // Amount to complete the task
+goal_amount = 3; // Amount to complete the task
 
 // Hand stuff
 hand_xscale = 268 / sprite_get_width(spr_hand_finished);
