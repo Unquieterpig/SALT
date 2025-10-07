@@ -1,4 +1,4 @@
-text = "SALT\n\nProgrammers\nNathan Hammer\nJoshua Partridge\n\nGraphics\nbob Azul\nNathan Hammer\n\nSound and Music\nGavin Redding\n\n(C) 2025 M.A.G.S.";
+text = "SALT\n\nProgrammers\nNathan Hammer\nJoshua Partridge\n\nGraphics\nbob Azul\nNathan Hammer\n\nSound and Music\nGavin Redding\n\nOcean Man\nAaron Freeman and Michael Melchiondo\n\n(C) 2025 M.A.G.S.";
 scroll_speed = 0.5;
 
 draw_set_font(font_comicsans);
